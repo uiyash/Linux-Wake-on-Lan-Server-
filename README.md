@@ -1,5 +1,5 @@
 # Linux-Wake-on-Lan-Server-using-Node.js
-wake devices on local net via a raspberry pi, etc.
+API to wake devices on local net via a raspberry pi, linux machine etc. (windows coming soon)
 it's technically an api! which works on http requests, we can you it for home-automation, smart home, etc. and it easily works with Google home, Alexa, etc.
 
 All you need is express.js and Node developement environment and 'wakeonlan' installed if not use 
