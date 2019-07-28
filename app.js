@@ -1,15 +1,15 @@
 const app = require('express')();
 const port = process.env.PORT || 8080;
-const secret = '7PTHJIQWen0q84EGXQJdxGuz1BCU41qq';
+const secret = ''; // some secret for a basic level of protection!
 const secret2 = 'password'
 const { exec } = require('child_process');
 
 var devices = [{
 	name:'TV',
-	mac:'30:a9:de:df:56:ca'
+	mac:'00:00:00:00:00:00'
 	},{
 	name:'PC',
-	mac:'60:45:cb:a1:dd:25'
+	mac:'00:00:00:00:00:00'
 	}]
 
 function wake(mac){
