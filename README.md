@@ -15,3 +15,21 @@ Initialization Steps
 7. The server is live to wake devices on your network!
 
 
+Operation Modes! 
+~Basically in two ways
+1. Add devices in the harcode
+  var devices = [{
+	  name:'TV',
+	  mac:'00:00:00:00:00:00'
+	  },{
+	  name:'PC',
+	  mac:'00:00:00:00:00:00'
+	  }]
+    
+   Then later http://ip:port/wake/2/:secret/:device make a get request by visiting the link,
+    where secret is the secret code you set! and device is the name of the device you wanna wake!
+   
+2. Send mac adress of the device
+  http://ip:port/wake/2/:secret/:device
+  where secret is the secret code you set! and device is the mac address you need to wake
+   
