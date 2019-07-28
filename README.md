@@ -22,13 +22,14 @@ Initialization Steps (Begin after initializing the environment)
 Operation Modes! 
 ~Basically in two ways
 1. Add devices in the harcode
+
   var devices = [{
 	  name:'TV',
-	  mac:'00:00:00:00:00:00'
-	  },{
-	  name:'PC',
-	  mac:'00:00:00:00:00:00'
-	  }]
+	  mac:'00:00:00:00:00:00'},
+	  {name:'PC',
+	  mac:'00:00:00:00:00:00'},
+	  {name:'YOUR DEVICE NAME',
+	  mac:'YOUR DEVICE'S MAC'}]
     
    Then later http://ip:port/wake/2/:secret/:device make a get request by visiting the link,
     where secret is the secret code you set! and device is the name of the device you wanna wake!
