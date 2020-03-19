@@ -38,3 +38,8 @@ Operation Modes!
   http://ip:port/wake/2/:secret/:device
   where secret is the secret code you set! and device is the mac address you need to wake
    
+
+Make The Program run every time
+on linux cli
+'sudo crontab -e'
+@reboot node /location/to/app.js
