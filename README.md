@@ -4,7 +4,7 @@ API to wake devices on local net via a raspberry pi, linux machine etc. (windows
 it's technically an api! which works on http get requests, we can you it for home-automation, smart home, etc. and it easily works with Google home, Alexa, etc.
 
 All you need is 
-1. Node.js developement environment
+1. Node.js developement environment //https://linuxize.com/post/how-to-install-node-js-on-raspberry-pi/
 2. Express.js and 
 3. 'wakeonlan' installed if not use 
 'sudo apt-get install wakeonlan'
